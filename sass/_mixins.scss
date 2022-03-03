@@ -1,0 +1,11 @@
+@mixin flex-prop($direction, $property1,$property2) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $property1;
+    align-items: $property2;
+}
+
+@mixin font-prop($color,$size) {
+    color:$color;
+    font-size:$size;
+}
